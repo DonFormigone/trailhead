@@ -1,0 +1,14 @@
+<aura:component
+    implements="force:appHostable,force:hasRecordId,force:hasSObjectName,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction">
+    <div class="slds-col slds-size_1-of-1 searchCard">
+    <div class="row p20 searchCard">
+    <div class="slds-col slds-size_1-of-1 slds-medium-size_9-of-12">
+        <lightning:input aura:id="txtBuscar" class="mb20" maxlenght="255" label="Nome do Contato"
+        name="tel"
+       />
+    </div>
+    
+    <lightning:button type="submit" variant="brand" label="Buscar" title="Buscar" />
+    </div>
+</div>
+</aura:component>

@@ -1,0 +1,5 @@
+<aura:component>
+    <aura:registerEvent name="eventoComponent" type="c:eventoComponent" />
+    <h1>Component03</h1>
+    <lightning:button variant="base" label="Disparar evento" title="Disparar evento" onclick="{! c.dispararEventoComponent }"/>
+</aura:component>

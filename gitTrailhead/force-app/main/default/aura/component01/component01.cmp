@@ -1,0 +1,14 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction,lightning:actionOverride"  access="global" controller="component01Controller">
+<aura:handler name="init" action="{!c.buscarDados}" value="{!this}" />
+<aura:handler name="eventoComponent" event="c:eventoComponent" action="{!c.executarEventoComponent}" />
+<aura:registerEvent name="eventoComponent01" type="c:eventoComponent01" />
+<aura:attribute name="Name" type="String" access="public" default="" />
+<div class="slds-box slds-theme_default">
+    <form class="slds-formstacked">
+        <lightning:input type="Text" name="Name" label="Nome" value="{!v.Name}" />
+        <lightning:button variant="base" label="Salvar" title="Salvar" onclick="{! c.salvar }"/>
+        <lightning:button variant="brand" label="Executar evento Application" title="Executar evento Application" onclick="{! c.executarEventoApplication }"/>
+    </form>
+    <c:component03/>
+</div>
+</aura:component>

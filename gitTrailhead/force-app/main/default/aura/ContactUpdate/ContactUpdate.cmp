@@ -1,0 +1,9 @@
+<aura:component
+    implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction,lightning:actionOverride"
+    access="global">
+    <div class="slds-box slds-theme_default">
+        <form class="slds-formstacked">
+            <lightning:input type="text" name="AccountName" label="Nome Conta" />
+        </form>
+    </div>
+</aura:component>

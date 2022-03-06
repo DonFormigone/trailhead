@@ -1,0 +1,4 @@
+<aura:component>
+<aura:attribute name="mensagem" type="String" default="" />
+<aura:handler event="c:eventoComponent01" action="{!c.executarEvento}" />
+</aura:component>

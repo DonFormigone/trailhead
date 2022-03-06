@@ -1,0 +1,11 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId">
+    <lightning:card iconName="standard:account" title="Editar rápida"> 
+        <lightning:recordEditForm objectApiName="Account" recordId="{!v.recordId}">
+            <lightning:messages />
+            <lightning:inputField fieldName="Name"/>
+            <lightning:inputField fieldName="AccountNumber" />
+            <lightning:inputField fieldName="Type" />
+            <lightning:button class="slds-m-top_small" type="submit" label="Salvar" />
+        </lightning:recordEditForm>
+    </lightning:card>
+</aura:component>

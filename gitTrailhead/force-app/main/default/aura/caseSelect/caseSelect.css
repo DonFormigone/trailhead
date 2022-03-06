@@ -1,0 +1,86 @@
+.THIS .searchCard{
+    border-radius: 5px;
+    background: #fff;
+    position: relative;
+    -ms-transform: translate(0,-50%);
+}
+
+.THIS .radioDoc{
+    margin-bottom:20px;
+}
+
+.THIS .radioDoc .slds-radio{
+    display:inline-block;
+}
+
+.THIS .p20{
+    padding:10px;
+}
+
+.THIS .plr20{
+    padding:0 20px;
+}
+
+.THIS .mb20{
+    margin-bottom:20px;
+}
+
+.THIS .wd100{
+    width: 100%;
+}
+.THIS .border-solid{
+    border-style: solid;
+}
+
+.THIS .image-size_child{
+    height: 100px;
+}
+.THIS .image-size_parent{
+    height: 300px;
+}
+.THIS .inline-block{
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+    margin: 6px 0px 0px 10px;
+}
+.THIS .inline-block-image{
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.THIS .btnGoToTop {    
+    display: block;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 99999999;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+    .THIS .top22{
+          top:22px;
+      }
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .THIS .image-size_child{
+        height: 50px;
+    }
+    .THIS .inline-block{
+        display: inline-block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 8em;
+        margin: 10px 0 0 6px;
+        font-size: 12px;
+    }
+}

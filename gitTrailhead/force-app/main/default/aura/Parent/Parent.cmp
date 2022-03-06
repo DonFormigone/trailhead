@@ -1,0 +1,6 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction,lightning:actionOverride"  access="global">
+    <div class="slds-m-around_xx-large">
+        <c:Child aura:id="childCmp"/>
+        <lightning:button variant="brand" label="Executar Filho" title="Executar Filho" onclick="{! c.executarFilho }"/>    
+    </div>
+</aura:component>
