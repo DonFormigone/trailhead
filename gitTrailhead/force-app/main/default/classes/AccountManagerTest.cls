@@ -1,13 +1,6 @@
 @isTest
 private class AccountManagerTest {
 
-    @testSetup
-    private static void testSetup() {
-        Contact contact = new Contact();
-        Account account = new Account();
-        Case case = new Case();
-        
-    }
     private static testMethod void getAccountTest1() {
         Id recordId = createTestRecord();
         RestRequest request = new RestRequest();
